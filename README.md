@@ -14,7 +14,7 @@ $ .\venv\Scripts\activate
 
 ---
 
-## Compilar e rodar o projeto
+## Rodar o projeto
 ```bash
 $ uvicorn main:app --reload
 ```
