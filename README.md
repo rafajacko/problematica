@@ -1,13 +1,27 @@
-iniciar o projeto 
-  python -m venv venv 
-  venv\Scripts\activate
+## Inicializar o projeto
 
-instale as dependências (arquivo gerado utilizando o comando pip install -r requirements.txt)
-  pip install -r requirements.txt
+```bash
+# instalar dependências (arquivo gerado usando o comando )
+$ pip install -r requirements.txt
+```
+---
 
-rodar o projeto 
-  uvicorn main:app --reload
+## iniciar ambiente virtual
+```bash
+$ python -m venv venv
+$ .\venv\Scripts\activate   
+```
 
-Rota do Swagger
-  http://localhost:8000/docs
-  
+---
+
+## Compilar e rodar o projeto
+```bash
+$ uvicorn main:app --reload
+```
+
+---
+
+# Swagger
+```bash
+http://localhost:8000/docs
+```
